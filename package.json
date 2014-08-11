@@ -2,12 +2,12 @@
     "name": "TraceKit",
     "version": "0.1.0",
     "devDependencies": {
-        "grunt": "~0.4.1",
-        "grunt-contrib-jshint": "~0.6.2",
-        "grunt-cli": "~0.1.9",
-        "grunt-closure-tools": "~0.8.3"
-    },
-    "scripts": {
-        "test": "grunt --verbose travis"
+        "gulp": "~3.8.6",
+        "gulp-load-plugins": "~0.5.3",
+        "gulp-rename": "~1.2.0",
+        "gulp-concat": "~2.3.4",
+        "gulp-uglify": "~0.3.1",
+        "gulp-sourcemaps": "~1.1.0",
+        "gulp-replace": "~0.4.0"
     }
 }
