@@ -1,22 +1,11 @@
 TraceKit - Cross browser stack traces.
 =====================================
 
-[![Build Status](https://travis-ci.org/occ/TraceKit.png?branch=master)](https://travis-ci.org/occ/TraceKit)
+**NOTE: This is a WIP fork, don't use it.**
 
 ### Supports all major browsers, from IE6 to Opera, the Andriod webview and everywhere in between.
 
-Not all browsers support stack traces on error objects, but TraceKit squeezes
-out as much useful information as possible and normalizes it. 3kB minified + gzipped
-
-
-## Install
-
-```
-bower install tracekit
-```
-This places TraceKit at `components/tracekit/tracekit.js`. Install [bower](http://twitter.github.com/bower/): `npm install bower -g`, download npm with Node: http://nodejs.org
-
-Then include the `<script>` to your page
+Not all browsers support stack traces on error objects, but TraceKit squeezes out as much useful information as possible and normalizes it. 3kB minified + gzipped
 
 ## Usage
 
@@ -74,19 +63,11 @@ TraceKit.collectWindowErrors = false;
 
 View the source for more details and examples.
 
-![Stacktrace or GTFO](http://i.imgur.com/jacoj.jpg)
-
-## Contributing
-
-Right now the project is being over-hauled, please jump into #shieldjs on freenode to discuss before submitting a big/medium PR (this saves us all time)
-
-All code must pass JSHint and tests, run `grunt` for this. New features need accompanying documentation in the README, changes to existing api's need updated documentation. In general, open an issue for whatever it is you're thinking, get some quick feedback, make good stuff, and we'll accept the PR.
-
 ## License
 
 (The MIT License)
 
-Copyright (c) 2013 Onur Can Cakmak <onur.cakmak@gmail.com> and all TraceKit contributors.
+Copyright (c) 2014 Robin Andersson <me@robinwassen.com> and all TraceKit contributors.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
