@@ -5,9 +5,7 @@
 
 (function(window, undefined) {
 
-
 var TraceKit = {};
-var _oldTraceKit = window.TraceKit;
 
 // global reference to slice
 var _slice = [].slice;
@@ -28,15 +26,6 @@ function _has(object, key) {
 function _isUndefined(what) {
     return typeof what === 'undefined';
 }
-
-/**
- * TraceKit.noConflict: Export TraceKit out to another variable
- * Example: var TK = TraceKit.noConflict()
- */
-TraceKit.noConflict = function noConflict() {
-    window.TraceKit = _oldTraceKit;
-    return TraceKit;
-};
 
 /**
  * TraceKit.wrap: Wrap any function in a TraceKit reporter
