@@ -8,8 +8,8 @@ TraceKit - Cross browser stack traces.
 Not all browsers support stack traces on error objects, but TraceKit squeezes out as much useful information as possible and normalizes it. 3kB minified + gzipped
 
 * Documentation
-  * [Example Usage](/wiki/Example-usage)
-  * [Options](/wiki/Options)
+  * [Example Usage](https://github.com/robinwassen/TraceKit/wiki/Example-usage)
+  * [Options](https://github.com/robinwassen/TraceKit/wiki/Options)
 * [License](LICENSE.md) 
 
 -----------------------------
