@@ -16,12 +16,18 @@ var src = [
 var dest = "dist";
 
 gulp.task("default", function() {
-	return gulp.start("js", "js-min");
+	return gulp.start("lint", "js", "js-min");
 });
 
 gulp.task("watch", function() {
-	gulp.watch(src, ["js", "js-min"]);
+	gulp.watch(src, ["lint", "js", "js-min"]);
 	return gulp.start("default");
+});
+
+gulp.task("lint", function() {
+	return gulp.src(src)
+			.pipe(r.jshint())
+			.pipe(r.jshint.reporter("default"));
 });
 
 gulp.task("js", function() {
